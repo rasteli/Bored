@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bored",
+  "name": "Bored",
   "icons": [
     {
       "src": "icon.svg",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#6a2186",
   "background_color": "#ffffff"
 }
