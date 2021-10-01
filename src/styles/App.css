@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 25pt;
+  color: #dddd;
+  text-shadow: 8px 9px 4px rgba(0, 0, 0, 0.8);
+}
+
+body {
+  background: #141211;
+}
+
+.activity {
+  text-align: center;
+}
+
+.bottom {
+  display: grid;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  font-size: 15pt;
+  font-weight: bold;
+  border: none;
+  box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.7);
+  background: rgb(106, 33, 134);
+  color: #dddd;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.types {
+  background: none;
+  margin-top: 15px;
+  padding: 5px;
+  color: #dddd;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #dddddd;
+  font-size: 12pt;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.types option {
+  background: #141211;
+}
+
+.arrow {
+  transform: translate(950%, -110%);
+  pointer-events: none;
+}
+
+.btn:hover {
+  color: rgba(160, 159, 159, 0.867);
+  background: rgb(78, 24, 99);
+}
+
+@media (max-width: 523px) {
+  .App {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+.content {
+  font-size: 17pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 15px;
+}
+
+.content div {
+  margin-left: 15px;
+}
+
+.content .second {
+  margin-left: 80px;
+}
+
+.content h4,
+h5 {
+  color: rgb(228, 227, 227);
+}
+
+.content p {
+  color: rgb(167, 167, 167);
+}
+
+.content .second p,
+.third p {
+  font-size: 17pt;
+}
+
+@media (max-width: 523px) {
+  .content {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 680px) {
+  .content .second {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    grid-template-columns: none;
+  }
+}
